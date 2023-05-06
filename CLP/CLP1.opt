@@ -51,6 +51,7 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
@@ -129,7 +130,7 @@ BEGIN
   MRUWidth:=246;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 655";
+  MRUDockPos:="0 -2 255 888";
   MRUFloatStyle:=8192;
   MRUFloatPos:="804 288";
   Style:=8084;
@@ -139,7 +140,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="246 345";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 657";
+  MRUVertDock:="255 890";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
