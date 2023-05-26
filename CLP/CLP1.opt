@@ -51,11 +51,10 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 1920 231";
+  MRUDockPos:="1 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -64,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 226";
+  MRUHorzDock:="1919 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -89,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="637 207";
+  MRUHorzDock:="637 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -114,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="677 207";
+  MRUHorzDock:="677 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -130,7 +129,7 @@ BEGIN
   MRUWidth:=246;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 888";
+  MRUDockPos:="0 -2 255 701";
   MRUFloatStyle:=8192;
   MRUFloatPos:="804 288";
   Style:=8084;
@@ -140,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="246 345";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 890";
+  MRUVertDock:="255 703";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -164,7 +163,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="637 226";
+  MRUHorzDock:="637 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -184,7 +183,7 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=43;
- Selected:=17;
+ Selected:=14;
 END;
 Frame[0]:=
 BEGIN
@@ -202,6 +201,36 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
+ Norm:="0078 0078 1451 0680";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0104 0104 1473 0702";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section1!Section1";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Max:=true;
  Norm:="0130 0130 1503 0732";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
@@ -228,22 +257,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
-BEGIN
- Max:=true;
- Norm:="0104 0104 1473 0702";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section1!Section1";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=3;
+nFrames:=4;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
