@@ -51,11 +51,10 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 1920 185";
+  MRUDockPos:="1 5 958 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -64,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 180";
+  MRUHorzDock:="957 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -130,7 +129,7 @@ BEGIN
   MRUWidth:=246;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 888";
+  MRUDockPos:="0 -2 255 692";
   MRUFloatStyle:=8192;
   MRUFloatPos:="804 288";
   Style:=8084;
@@ -140,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="246 345";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 890";
+  MRUVertDock:="255 694";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -184,7 +183,7 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=44;
- Selected:=17;
+ Selected:=18;
 END;
 Frame[0]:=
 BEGIN
@@ -202,34 +201,6 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0130 0130 1503 0732";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
  Norm:="0078 0078 1451 0680";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
@@ -243,24 +214,37 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[2]:=
 BEGIN
  Norm:="0130 0130 1503 0732";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Transitions!Transitions";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
+ Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=2;
+   Yscroll:=17;
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=312;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[3]:=
 BEGIN
- Max:=true;
  Norm:="0104 0104 1473 0702";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Main!Main";
@@ -269,6 +253,22 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Max:=true;
+ Norm:="0130 0130 1503 0732";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Transitions!Transitions";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
