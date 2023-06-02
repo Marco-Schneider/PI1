@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 958 185";
+  MRUDockPos:="1 5 1106 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 180";
+  MRUHorzDock:="1105 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -224,7 +224,6 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=17;
    Mag:=1;
    Extra:=
    BEGIN
@@ -235,9 +234,11 @@ BEGIN
     Width[1]:=90;
     Width[2]:=100;
     Width[3]:=1;
-    Width[4]:=84;
+    Width[4]:=219;
     Width[5]:=48;
     Width[6]:=200;
+    SortCol:=2;
+    SortAscending:=false;
    END;
   END;
   nViews:=1;
@@ -268,7 +269,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=9;
+   Yscroll:=11;
   END;
   nViews:=1;
  END;
