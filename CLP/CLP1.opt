@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 1106 185";
+  MRUDockPos:="1 5 1920 76";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1105 180";
+  MRUHorzDock:="1919 71";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="637 180";
+  MRUHorzDock:="637 71";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="677 180";
+  MRUHorzDock:="677 71";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,7 +129,7 @@ BEGIN
   MRUWidth:=246;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 692";
+  MRUDockPos:="0 -2 255 810";
   MRUFloatStyle:=8192;
   MRUFloatPos:="804 288";
   Style:=8084;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="246 345";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 694";
+  MRUVertDock:="255 812";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -163,7 +163,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="637 180";
+  MRUHorzDock:="637 71";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -183,23 +183,9 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=44;
- Selected:=18;
+ Selected:=17;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0156 0156 1529 0758";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
 BEGIN
  Norm:="0078 0078 1451 0680";
  Min:="-001 -001";
@@ -214,7 +200,36 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[1]:=
+BEGIN
+ Norm:="0156 0156 1529 0758";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[2]:=
+BEGIN
+ Norm:="0130 0130 1503 0732";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Transitions!Transitions";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=16;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
 BEGIN
  Norm:="0130 0130 1503 0732";
  Min:="-001 -001";
@@ -237,15 +252,44 @@ BEGIN
     Width[4]:=219;
     Width[5]:=48;
     Width[6]:=200;
-    SortCol:=2;
     SortAscending:=false;
    END;
   END;
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[4]:=
 BEGIN
+ Norm:="0130 0130 1529 0680";
+ Min:="-001 -001";
+ Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Max:=true;
  Norm:="0104 0104 1473 0702";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Main!Main";
@@ -254,27 +298,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
-BEGIN
- Max:=true;
- Norm:="0130 0130 1503 0732";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Transitions!Transitions";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=11;
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=5;
+nFrames:=6;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
