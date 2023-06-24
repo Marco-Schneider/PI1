@@ -129,7 +129,7 @@ BEGIN
   MRUWidth:=270;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 712";
+  MRUDockPos:="0 -2 179 712";
   MRUFloatStyle:=8192;
   MRUFloatPos:="69 313";
   Style:=8084;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="270 361";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 714";
+  MRUVertDock:="179 714";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -182,49 +182,21 @@ BEGIN
  Item[2]:=12;
  Item[3]:=13;
  ItemCount:=4;
- Sumcheck:=44;
- Selected:=14;
+ Sumcheck:=46;
+ Selected:=20;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0234 0234 1659 0712";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
- Type:=7;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0052 0052 1477 0530";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Transitions!Transitions";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
  Norm:="0208 0208 1633 0686";
  Min:="-001 -001";
- Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1 - AGORA VAI COPIA 10 - FINAL TALVEZ  - ME AJUDA.cxp";
+ Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP10.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=105;
    Mag:=1;
    Extra:=
    BEGIN
@@ -243,24 +215,23 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[1]:=
 BEGIN
- Norm:="0052 0052 1425 0654";
+ Norm:="0234 0234 1659 0712";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Main!Main";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=6;
+   Mag:=1;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[2]:=
 BEGIN
- Max:=true;
  Norm:="0026 0026 1451 0504";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
@@ -269,7 +240,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=88;
+   Yscroll:=61;
    Mag:=1;
    Extra:=
    BEGIN
@@ -283,12 +254,72 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
+    SortCol:=2;
    END;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=5;
+Frame[3]:=
+BEGIN
+ Norm:="0130 0130 1555 0608";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Robo!Robo";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0052 0052 1425 0654";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Armazem!Armazem";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=155;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0182 0182 1607 0660";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Visao!Visao";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Max:=true;
+ Norm:="0156 0156 1581 0634";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Esteiras!Esteiras";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=23;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=7;
 WatchWindow:=
 BEGIN
  NumWatch:=3;

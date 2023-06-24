@@ -51,10 +51,10 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="964 5";
+  Pos:="476 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="964 5 1920 174";
+  MRUDockPos:="476 5 944 174";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="956 169";
+  MRUHorzDock:="468 169";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -79,7 +79,7 @@ BEGIN
   MRUWidth:=300;
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 958 174";
+  MRUDockPos:="1 5 470 174";
   MRUFloatStyle:=8192;
   MRUFloatPos:="1 753";
   Style:=36756;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 169";
+  MRUHorzDock:="469 169";
   MRUVertDock:="300 180";
   MRUDockingState:=61440;
   DockingStyle:=61440;
@@ -129,7 +129,7 @@ BEGIN
   MRUWidth:=270;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 712";
+  MRUDockPos:="0 -2 255 413";
   MRUFloatStyle:=8192;
   MRUFloatPos:="69 313";
   Style:=8084;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="270 361";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 714";
+  MRUVertDock:="255 415";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -218,7 +218,7 @@ Frame[2]:=
 BEGIN
  Norm:="0208 0208 1633 0686";
  Min:="-001 -001";
- Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1 - AGORA VAI COPIA 10 - FINAL TALVEZ  - ME AJUDA.cxp";
+ Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1 - AGORA VAI COPIA 10 - FINAL TALVEZ  - ME AJUDA - MÃE.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
@@ -253,7 +253,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=6;
+   Yscroll:=5;
   END;
   nViews:=1;
  END;
@@ -269,7 +269,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=88;
+   Yscroll:=90;
    Mag:=1;
    Extra:=
    BEGIN

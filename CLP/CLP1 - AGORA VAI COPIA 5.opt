@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 1920 271";
+  MRUDockPos:="1 5 944 271";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 266";
+  MRUHorzDock:="943 266";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,7 +129,7 @@ BEGIN
   MRUWidth:=246;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 255 615";
+  MRUDockPos:="0 -2 255 316";
   MRUFloatStyle:=8192;
   MRUFloatPos:="804 288";
   Style:=8084;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="246 345";
   MRUHorzDock:="300 180";
-  MRUVertDock:="255 617";
+  MRUVertDock:="255 318";
   MRUDockingState:=61440;
   DockingStyle:=61440;
   TypeID:=0;
@@ -185,7 +185,7 @@ BEGIN
  Item[5]:=41;
  ItemCount:=6;
  Sumcheck:=82;
- Selected:=40;
+ Selected:=14;
 END;
 Frame[0]:=
 BEGIN
@@ -204,20 +204,6 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0104 0104 1477 0706";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem.Actions.Sections.TO_HOME_X_Y_Z!TO_HOME_X_Y_Z";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
  Norm:="0156 0156 1529 0758";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem.Transitions.Sections.HOME_X_Y_Z!HOME_X_Y_Z";
@@ -230,7 +216,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[2]:=
 BEGIN
  Norm:="0130 0130 1503 0732";
  Min:="-001 -001";
@@ -244,7 +230,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[3]:=
 BEGIN
  Norm:="0026 0026 1399 0628";
  Min:="-001 -001";
@@ -258,16 +244,53 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[4]:=
+BEGIN
+ Norm:="0000 0000 1369 0598";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem!Armazem";
+ Type:=12;
+ Xsplit:=674;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Yscroll:=26;
+   Mag:=117;
+  END;
+  nViews:=2;
+ END;
+END;
 Frame[5]:=
 BEGIN
- Norm:="0078 0078 1451 0680";
+ Norm:="0104 0104 1477 0706";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem!Armazem.Symbols";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem.Actions.Sections.TO_HOME_X_Y_Z!TO_HOME_X_Y_Z";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0182 0182 1659 0615";
+ Min:="-001 -001";
+ Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1 - AGORA VAI COPIA 5.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=11;
    Mag:=1;
    Extra:=
    BEGIN
@@ -286,29 +309,37 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[7]:=
 BEGIN
  Max:=true;
- Norm:="0000 0000 1369 0598";
+ Norm:="0078 0078 1451 0680";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem!Armazem";
- Type:=12;
- Xsplit:=674;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.Armazem!Armazem.Symbols";
+ Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=21;
    Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
   END;
-  View[1]:=
-  BEGIN
-   Yscroll:=86;
-   Mag:=173;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
-nFrames:=7;
+nFrames:=8;
 WatchWindow:=
 BEGIN
  NumWatch:=3;

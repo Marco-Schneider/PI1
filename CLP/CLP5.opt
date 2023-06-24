@@ -183,7 +183,7 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=44;
- Selected:=14;
+ Selected:=17;
 END;
 Frame[0]:=
 BEGIN
@@ -218,7 +218,7 @@ Frame[2]:=
 BEGIN
  Norm:="0208 0208 1633 0686";
  Min:="-001 -001";
- Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP1 - AGORA VAI COPIA 10 - FINAL TALVEZ  - ME AJUDA.cxp";
+ Path:="C:\Users\Aluno\Documents\Manufatura_Integrada_agora_vai_2\PI1\CLP\CLP4.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
@@ -245,22 +245,6 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0052 0052 1425 0654";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Main!Main";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=6;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Max:=true;
  Norm:="0026 0026 1451 0504";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
@@ -269,7 +253,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=88;
+   Yscroll:=23;
    Mag:=1;
    Extra:=
    BEGIN
@@ -284,6 +268,22 @@ BEGIN
     Width[5]:=48;
     Width[6]:=200;
    END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1425 0654";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Main!Main";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=47;
   END;
   nViews:=1;
  END;
